@@ -19,8 +19,8 @@
 
         devShells.default = pkgs.mkShell {
           buildInputs = [
-            pkgs.python39
-            pkgs.python39Packages.pulsectl
+            pkgs.python3
+            pkgs.python3Packages.pulsectl
             pkgs.xob
             pkgs.nixfmt
           ];

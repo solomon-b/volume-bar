@@ -1,5 +1,5 @@
-{ python39Packages }:
-with python39Packages;
+{ python3Packages }:
+with python3Packages;
 buildPythonApplication {
   pname = "pulse-volume-watcher";
   version = "1.0";
